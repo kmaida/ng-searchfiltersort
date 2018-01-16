@@ -1,0 +1,6 @@
+<div class="container p-sm-3">
+  <h1 class="text-center pb-2">FilterSort Demo App</h1>
+  <p *ngIf="loading" class="text-center">Loading...</p>
+  <div *ngIf="error" class="alert alert-danger">An error occurred fetching data. Please try again.</div>
+  <app-search *ngIf="films" [films]="films"></app-search>
+</div>

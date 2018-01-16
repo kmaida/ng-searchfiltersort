@@ -100,6 +100,10 @@ The `orderByDate()` method specifically sorts by dates.
 * **prop**: `string` The property that should be used to sort the array. Dates are expected as values for the specified property. (An error will occur otherwise.)
 * **reverse** _(optional)_: `boolean` Specifies whether the order of sorting should be reversed. For example, setting `reverse` to `true` will return the array in _descending_ order (Dec to Jan | 2017 to 1992) instead of the default _ascending_ (Jan to Dec | 1992 to 2017).
 
+## Demo
+
+You can check out a demo Angular app showing how to use the `ng-searchfiltersort` library in the [`demo` folder in this repository](https://github.com/kmaida/ng-searchfiltersort/tree/master/demo). See the folder's README for installation instructions.
+
 ## License
 
-[MIT](https://github.com/kmaida/ng-searchfiltersort/master/LICENSE) &copy; Kim Maida
+[MIT](https://github.com/kmaida/ng-searchfiltersort/blob/master/LICENSE) &copy; Kim Maida
