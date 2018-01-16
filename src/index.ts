@@ -1,5 +1,5 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 import { SearchFilterSortService } from './search-filter-sort.service';
 
 export * from './search-filter-sort.service';
@@ -14,7 +14,10 @@ export class SearchFilterSortModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: SearchFilterSortModule,
-      providers: [SearchFilterSortService]
+      providers: [
+        SearchFilterSortService,
+        DatePipe
+      ]
     };
   }
 }

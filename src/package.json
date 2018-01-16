@@ -1,6 +1,6 @@
 {
   "name": "ng-searchfiltersort",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/kmaida/ng-searchfiltersort"
@@ -10,7 +10,11 @@
     "email": "kim@kmaida.io"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "filtering",
+    "orderby",
+    "search",
+    "service"
   ],
   "license": "MIT",
   "bugs": {
@@ -21,8 +25,8 @@
   "jsnext:main": "ng-searchfiltersort.js",
   "typings": "ng-searchfiltersort.d.ts",
   "peerDependencies": {
-    "@angular/core": "^4.0.0",
-    "rxjs": "^5.1.0",
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.5.2",
     "zone.js": "^0.8.4"
   }
 }

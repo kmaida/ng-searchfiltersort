@@ -1,6 +1,6 @@
 {
   "name": "ng-searchfiltersort",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -23,7 +23,11 @@
     "email": "kim@kmaida.io"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "filtering",
+    "orderby",
+    "search",
+    "service"
   ],
   "license": "MIT",
   "bugs": {
