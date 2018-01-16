@@ -39,7 +39,7 @@ import { SearchFilterSortService } from 'ng-searchfiltersort';
     ...,
     SearchFilterSortModule.forRoot()
   ],
-  providers: [SearchFilterSort],
+  providers: [SearchFilterSortService],
   ...
 })
 export class AppModule { }
