@@ -8,7 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +27,8 @@
     "ng-searchfiltersort": "^0.1.1",
     "rxjs": "^5.5.6",
     "webpack": "^2.7.0",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular/cli": "^1.6.4",
@@ -48,5 +51,6 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
-  }
+  },
+  "snyk": true
 }
